@@ -23,17 +23,6 @@
     <title>csinhache's cv</title>
   </head>
   <body>
-
-    <!-- <div class="container">
-      <nav class="rounded navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="imgs/Donki.png" alt="Donki emote img" class="donki-brand">
-          </a>
-        </div>
-      </nav>
-    </div> -->
-
     <section id="terminal-styled">
     <div class="container-fluid console-container">
       <!-- <div class="row"> -->
@@ -67,7 +56,16 @@
     <!-- </div> -->
   </div>
     </section>
+    <script type="text/javascript">
+      var clicks = 0;
+      function onClick() {
+          clicks += 1;
+          document.getElementById("clicks").innerHTML = clicks;
+      };
+      </script>
 
+  <button type="button" onClick="onClick()">Click me</button>
+  <p>Clicks: <a id="clicks">0</a></p>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
