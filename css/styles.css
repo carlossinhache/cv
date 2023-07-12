@@ -9,11 +9,20 @@ html {
 }
 
 h1 {
-  font-family: "minecraftmedium";
   font-weight: 600;
   margin: 0;
   background-color: transparent;
   text-align: center;
+}
+
+#nav-item {
+  color: white;
+}
+
+.huge {
+  font-size: 10rem;
+  color: red;
+  font-weight: bold;
 }
 
 @keyframes background-pan {
