@@ -4,6 +4,11 @@
   --green-tres: rgb(0, 255, 43);
 }
 
+@font-face {
+  font-family: "Minecraft";
+  src: url(fonts/Minecraft.ttf) format("truetype");
+}
+
 html {
   background-color: black;
 }
@@ -13,18 +18,29 @@ h1 {
   margin: 0;
   background-color: transparent;
   text-align: center;
+  font-family: "Minecraft", sans-serif;
 }
 
-#nav-item {
+div {
   color: white;
 }
 
-.huge {
-  font-size: 10rem;
-  color: red;
-  font-weight: bold;
+.game {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
 }
-
+.game-option {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
 @keyframes background-pan {
   from {
     background-position: 0% center;
